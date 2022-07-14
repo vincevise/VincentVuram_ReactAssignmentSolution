@@ -1,0 +1,35 @@
+
+.navbar {
+    padding-top: 0; 
+    padding-bottom: 0;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgb(45, 140, 255);
+  border-bottom: 1px solid rgb(45, 140, 255);
+}
+/* .d-flex{
+    flex-direction: column;
+    justify-content: space-between;
+} */
+.d-flex-custom{
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.card:hover{
+    z-index: 0;
+    box-shadow: 1px 1px  rgba(0, 0, 0, 0.8);
+    animation-name:zoomin ;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoomin {
+    0%{
+
+    }
+    100%{
+        transform: scale(1.05,1.05);
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for react js graded project assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch data.json --port=3001",
+    "server": "json-server --watch src/api/db.json --port 5000"
+  },
+  "keywords": [
+    "graded",
+    "project"
+  ],
+  "author": "Joy Rahul Furtado",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
